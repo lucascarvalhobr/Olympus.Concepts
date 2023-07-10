@@ -9,25 +9,29 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libraries", "Libraries", "{
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Olympus.Concepts.OOP", "Olympus.Concepts.OOP", "{1A9C7AA7-CD53-487E-BC93-F4048CAECFBA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Olympus.Concepts.OOP", "Olympus.Concepts.OOP\Olympus.Concepts.OOP\Olympus.Concepts.OOP.csproj", "{36A1E0C8-3B5C-432A-89F5-72B57B993756}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Olympus.Concepts.OOP", "Olympus.Concepts.OOP\Olympus.Concepts.OOP\Olympus.Concepts.OOP.csproj", "{36A1E0C8-3B5C-432A-89F5-72B57B993756}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Olympus.Concepts.OOP.Tests", "Olympus.Concepts.OOP\Tests\Olympus.Concepts.OOP.Tests\Olympus.Concepts.OOP.Tests.csproj", "{004CDB71-4EDC-4FB0-8DFC-B318AB1EB598}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Olympus.Concepts.OOP.Tests", "Olympus.Concepts.OOP\Tests\Olympus.Concepts.OOP.Tests\Olympus.Concepts.OOP.Tests.csproj", "{004CDB71-4EDC-4FB0-8DFC-B318AB1EB598}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Olympus.Concepts.OOP.Abstractions", "Olympus.Concepts.OOP\Olympus.Concepts.OOP.Abstractions\Olympus.Concepts.OOP.Abstractions.csproj", "{B0A881D2-E186-4275-8851-A01D909BFC35}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Olympus.Concepts.OOP.Abstractions", "Olympus.Concepts.OOP\Olympus.Concepts.OOP.Abstractions\Olympus.Concepts.OOP.Abstractions.csproj", "{B0A881D2-E186-4275-8851-A01D909BFC35}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Olympus.Concepts.Microservices", "Olympus.Concepts.Microservices", "{04080FDE-A780-4469-A548-E759CFEA2B50}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Olympus.Concepts.Microservices.Abstractions", "Olympus.Concepts.Microservices\Olympus.Concepts.Microservices.Abstractions\Olympus.Concepts.Microservices.Abstractions.csproj", "{47400C88-3BC7-4D2D-83F4-12CD13771AD2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Olympus.Concepts.Microservices.Abstractions", "Olympus.Concepts.Microservices\Olympus.Concepts.Microservices.Abstractions\Olympus.Concepts.Microservices.Abstractions.csproj", "{47400C88-3BC7-4D2D-83F4-12CD13771AD2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Olympus.Concepts.Microservices.Apis", "Olympus.Concepts.Microservices\Olympus.Concepts.Microservices.Apis\Olympus.Concepts.Microservices.Apis.csproj", "{0751CBF9-561B-4BDF-A153-5514B1A5147B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Olympus.Concepts.Microservices.Apis", "Olympus.Concepts.Microservices\Olympus.Concepts.Microservices.Apis\Olympus.Concepts.Microservices.Apis.csproj", "{0751CBF9-561B-4BDF-A153-5514B1A5147B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Olympus.Concepts.UnitOfWork", "Olympus.Concepts.UnitOfWork", "{1F6F3D98-CE32-4269-AB7E-8B0E1162C556}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Olympus.Concepts.UnitOfWork.Abstractions", "Olympus.Concepts.UnitOfWork\Olympus.Concepts.UnitOfWork.Abstractions\Olympus.Concepts.UnitOfWork.Abstractions.csproj", "{5966C64A-822B-4003-8312-E76521D6B463}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Olympus.Concepts.UnitOfWork.Abstractions", "Olympus.Concepts.UnitOfWork\Olympus.Concepts.UnitOfWork.Abstractions\Olympus.Concepts.UnitOfWork.Abstractions.csproj", "{5966C64A-822B-4003-8312-E76521D6B463}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Olympus.Concepts.UnitOfWork.Sql", "Olympus.Concepts.UnitOfWork\Olympus.Concepts.UnitOfWork.Sql\Olympus.Concepts.UnitOfWork.Sql.csproj", "{5A87ECA0-B825-43E5-86DA-BF7C5A06E781}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Olympus.Concepts.UnitOfWork.Sql", "Olympus.Concepts.UnitOfWork\Olympus.Concepts.UnitOfWork.Sql\Olympus.Concepts.UnitOfWork.Sql.csproj", "{5A87ECA0-B825-43E5-86DA-BF7C5A06E781}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Olympus.Concepts.UnitOfWork.Sql.Abstractions", "Olympus.Concepts.UnitOfWork\Olympus.Concepts.UnitOfWork.Sql.Abstractions\Olympus.Concepts.UnitOfWork.Sql.Abstractions.csproj", "{9B96AD9D-2744-4A55-B25B-9A000F155881}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Olympus.Concepts.UnitOfWork.Sql.Abstractions", "Olympus.Concepts.UnitOfWork\Olympus.Concepts.UnitOfWork.Sql.Abstractions\Olympus.Concepts.UnitOfWork.Sql.Abstractions.csproj", "{9B96AD9D-2744-4A55-B25B-9A000F155881}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Olympus.Concepts.Misc", "Olympus.Concepts.Misc", "{BFE2B8BB-F0E3-422B-A58F-49A3639D3765}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Olympus.Concepts.Misc", "Olympus.Concepts.Misc\Olympus.Concepts.Misc\Olympus.Concepts.Misc.csproj", "{440669B5-291F-4CE8-BDB0-6DDF3B589F52}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -67,6 +71,10 @@ Global
 		{9B96AD9D-2744-4A55-B25B-9A000F155881}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9B96AD9D-2744-4A55-B25B-9A000F155881}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9B96AD9D-2744-4A55-B25B-9A000F155881}.Release|Any CPU.Build.0 = Release|Any CPU
+		{440669B5-291F-4CE8-BDB0-6DDF3B589F52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{440669B5-291F-4CE8-BDB0-6DDF3B589F52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{440669B5-291F-4CE8-BDB0-6DDF3B589F52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{440669B5-291F-4CE8-BDB0-6DDF3B589F52}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -83,6 +91,8 @@ Global
 		{5966C64A-822B-4003-8312-E76521D6B463} = {1F6F3D98-CE32-4269-AB7E-8B0E1162C556}
 		{5A87ECA0-B825-43E5-86DA-BF7C5A06E781} = {1F6F3D98-CE32-4269-AB7E-8B0E1162C556}
 		{9B96AD9D-2744-4A55-B25B-9A000F155881} = {1F6F3D98-CE32-4269-AB7E-8B0E1162C556}
+		{BFE2B8BB-F0E3-422B-A58F-49A3639D3765} = {58791114-A29F-49DD-8491-90A3F762E583}
+		{440669B5-291F-4CE8-BDB0-6DDF3B589F52} = {BFE2B8BB-F0E3-422B-A58F-49A3639D3765}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6417D909-48C0-4A31-BBC5-CE7C1508F29B}

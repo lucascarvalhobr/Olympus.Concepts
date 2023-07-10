@@ -1,9 +1,8 @@
-﻿namespace Olympus.Concepts.OOP.Abstractions
+﻿namespace Olympus.Concepts.OOP.Abstractions;
+
+internal class DummyDerivated : DummyBase
 {
-    internal class DummyDerivated : DummyBase
+    private class Teste
     {
-        private class Teste
-        {
-        }
     }
 }

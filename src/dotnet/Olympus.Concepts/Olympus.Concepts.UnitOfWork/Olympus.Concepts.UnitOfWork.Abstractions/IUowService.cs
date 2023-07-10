@@ -1,7 +1,6 @@
-﻿namespace Olympus.Concepts.UnitOfWork.Abstractions
+﻿namespace Olympus.Concepts.UnitOfWork.Abstractions;
+
+public interface IUowService
 {
-    public interface IUowService
-    {
-        ValueTask<IExecutorFactory> GetDefaultFactoryAsync(bool transactional, CancellationToken cancellationToken = default);
-    }
+    ValueTask<IExecutorFactory> GetDefaultFactoryAsync(bool transactional, CancellationToken cancellationToken = default);
 }

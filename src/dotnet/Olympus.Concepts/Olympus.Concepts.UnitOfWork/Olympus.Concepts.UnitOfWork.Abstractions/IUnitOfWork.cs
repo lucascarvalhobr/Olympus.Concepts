@@ -1,7 +1,6 @@
-﻿namespace Olympus.Concepts.UnitOfWork.Abstractions
+﻿namespace Olympus.Concepts.UnitOfWork.Abstractions;
+
+public interface IUnitOfWork
 {
-    public interface IUnitOfWork
-    {
-        ResultSet ResultSet { get; set; }
-    }
+    ResultSet ResultSet { get; set; }
 }

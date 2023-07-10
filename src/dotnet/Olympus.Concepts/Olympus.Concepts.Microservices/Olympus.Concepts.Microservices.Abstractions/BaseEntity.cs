@@ -1,7 +1,6 @@
-﻿namespace Olympus.Concepts.Microservices.Abstractions
+﻿namespace Olympus.Concepts.Microservices;
+
+internal class BaseEntity
 {
-    internal class BaseEntity
-    {
-        public int Id { get; set; }
-    }
+    public int Id { get; set; }
 }

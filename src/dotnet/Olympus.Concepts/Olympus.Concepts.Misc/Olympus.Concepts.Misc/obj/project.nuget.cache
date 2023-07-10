@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Iu8+Jv8RZo+IJ7ZhTSgD7iFDg86mDDvsHBgQ8sBz68ni+Xwim1OEVpC9IFvOiD9p55z171cZyVkAh0Sr46/98w==",
+  "success": true,
+  "projectFilePath": "C:\\Projects\\Olympus.Concepts\\src\\dotnet\\Olympus.Concepts\\Olympus.Concepts.Misc\\Olympus.Concepts.Misc\\Olympus.Concepts.Misc.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\The Office\\.nuget\\packages\\pdfpig\\0.1.8\\pdfpig.0.1.8.nupkg.sha512"
+  ],
+  "logs": []
+}
