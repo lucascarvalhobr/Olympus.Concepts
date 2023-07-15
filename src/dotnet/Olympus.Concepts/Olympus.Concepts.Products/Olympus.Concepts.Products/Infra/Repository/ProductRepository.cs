@@ -1,5 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using Olympus.Concepts.Products.Core.Entity;
+using Olympus.Concepts.Products.Core.Entity.Products;
 using Olympus.Concepts.Products.Core.Repository;
 using Olympus.Concepts.Products.Infra.Database;
 
@@ -14,36 +14,32 @@ internal sealed class ProductRepository : IProductRepository
         _context = context;
     }
 
-    public Product GetProductById(Guid id)
+    public Task<Product> GetByIdAsync(Guid id)
     {
-        return _context.Products.FirstOrDefault(i => i.Id == id);
+        return _context.Products.FirstOrDefaultAsync(i => i.Id == id);
     }
 
-    public Task<List<Product>> GetAsync()
+    public Task<List<Product>> GetAllAsync()
     {
         return _context.Products.ToListAsync();
     }
 
-    public async Task InsertAsync(Product product)
+    public async Task AddAsync(Product product)
     {
         await _context.Products.AddAsync(product);
     }
 
-    public async Task DeleteAsync(Guid id)
+    public Task RemoveAsync(Product product)
     {
-        var item = GetProductById(id);
-        _context.Products.Remove(item);
-        await SaveAsync();
+        _context.Products.Remove(product);
+
+        return Task.CompletedTask;
     }
 
-    public async Task UpdateAsync(Product product)
+    public Task UpdateAsync(Product product)
     {
         _context.Update(product);
-        await SaveAsync();
-    }
 
-    public async Task SaveAsync()
-    {
-        await _context.SaveChangesAsync();
+        return Task.CompletedTask;
     }
 }

@@ -1,19 +1,17 @@
-﻿using Olympus.Concepts.Products.Core.Entity;
+﻿using Olympus.Concepts.Products.Core.Entity.Products;
 
 namespace Olympus.Concepts.Products.Core.Repository;
 
 internal interface IProductRepository
 {
-    Product GetProductById(Guid id);
+    Task<Product> GetByIdAsync(Guid id);
 
-    Task<List<Product>> GetAsync();
+    Task<List<Product>> GetAllAsync();
 
-    Task InsertAsync(Product product);
+    Task AddAsync(Product product);
 
-    Task DeleteAsync(Guid id);
+    Task RemoveAsync(Product product);
 
     Task UpdateAsync(Product product);
-
-    Task SaveAsync();
 }
 

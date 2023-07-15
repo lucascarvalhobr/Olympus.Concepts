@@ -1,0 +1,14 @@
+C:\Projects\Olympus.Concepts\src\dotnet\Olympus.Concepts\Olympus.Concepts.Products\Olympus.Concepts.Products\bin\Debug\net7.0\Olympus.Concepts.Products.deps.json
+C:\Projects\Olympus.Concepts\src\dotnet\Olympus.Concepts\Olympus.Concepts.Products\Olympus.Concepts.Products\bin\Debug\net7.0\Olympus.Concepts.Products.runtimeconfig.json
+C:\Projects\Olympus.Concepts\src\dotnet\Olympus.Concepts\Olympus.Concepts.Products\Olympus.Concepts.Products\bin\Debug\net7.0\Olympus.Concepts.Products.dll
+C:\Projects\Olympus.Concepts\src\dotnet\Olympus.Concepts\Olympus.Concepts.Products\Olympus.Concepts.Products\bin\Debug\net7.0\Olympus.Concepts.Products.pdb
+C:\Projects\Olympus.Concepts\src\dotnet\Olympus.Concepts\Olympus.Concepts.Products\Olympus.Concepts.Products\obj\Debug\net7.0\Olympus.Concepts.Products.csproj.AssemblyReference.cache
+C:\Projects\Olympus.Concepts\src\dotnet\Olympus.Concepts\Olympus.Concepts.Products\Olympus.Concepts.Products\obj\Debug\net7.0\Olympus.Concepts.Products.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\Olympus.Concepts\src\dotnet\Olympus.Concepts\Olympus.Concepts.Products\Olympus.Concepts.Products\obj\Debug\net7.0\Olympus.Concepts.Products.AssemblyInfoInputs.cache
+C:\Projects\Olympus.Concepts\src\dotnet\Olympus.Concepts\Olympus.Concepts.Products\Olympus.Concepts.Products\obj\Debug\net7.0\Olympus.Concepts.Products.AssemblyInfo.cs
+C:\Projects\Olympus.Concepts\src\dotnet\Olympus.Concepts\Olympus.Concepts.Products\Olympus.Concepts.Products\obj\Debug\net7.0\Olympus.Concepts.Products.csproj.CoreCompileInputs.cache
+C:\Projects\Olympus.Concepts\src\dotnet\Olympus.Concepts\Olympus.Concepts.Products\Olympus.Concepts.Products\obj\Debug\net7.0\Olympus.Concepts.Products.dll
+C:\Projects\Olympus.Concepts\src\dotnet\Olympus.Concepts\Olympus.Concepts.Products\Olympus.Concepts.Products\obj\Debug\net7.0\refint\Olympus.Concepts.Products.dll
+C:\Projects\Olympus.Concepts\src\dotnet\Olympus.Concepts\Olympus.Concepts.Products\Olympus.Concepts.Products\obj\Debug\net7.0\Olympus.Concepts.Products.pdb
+C:\Projects\Olympus.Concepts\src\dotnet\Olympus.Concepts\Olympus.Concepts.Products\Olympus.Concepts.Products\obj\Debug\net7.0\Olympus.Concepts.Products.genruntimeconfig.cache
+C:\Projects\Olympus.Concepts\src\dotnet\Olympus.Concepts\Olympus.Concepts.Products\Olympus.Concepts.Products\obj\Debug\net7.0\ref\Olympus.Concepts.Products.dll

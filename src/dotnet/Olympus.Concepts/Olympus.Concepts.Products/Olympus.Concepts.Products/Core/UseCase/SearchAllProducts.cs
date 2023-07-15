@@ -1,20 +1,25 @@
-﻿using Olympus.Concepts.Products.Core.Entity;
-using Olympus.Concepts.Products.Core.Repository;
-using Olympus.Concepts.Products.Core.UseCase.Interfaces;
+﻿using AutoMapper;
+using Olympus.Concepts.Products.Core.Entity.Products;
+using Olympus.Concepts.Products.Infra;
 
 namespace Olympus.Concepts.Products.Core.UseCase;
 
 internal sealed class SearchAllProducts : ISearchAllProducts
 {
-    private readonly IProductRepository _productRepository;
+    private readonly IUnitOfWork _uow;
+    private readonly IMapper _mapper;
 
-    public SearchAllProducts(IProductRepository productRepository)
+    public SearchAllProducts(IUnitOfWork uow,
+        IMapper mapper)
     {
-        _productRepository = productRepository;
+        _uow = uow;
+        _mapper = mapper;
     }
 
-    public Task<List<Product>> GetAsync()
+    public async Task<List<ProductResponse>> GetAllAsync()
     {
-        return _productRepository.GetAsync();
+        var products = await _uow.Products.GetAllAsync();
+
+        return _mapper.Map<List<Product>, List<ProductResponse>>(products);
     }
 }

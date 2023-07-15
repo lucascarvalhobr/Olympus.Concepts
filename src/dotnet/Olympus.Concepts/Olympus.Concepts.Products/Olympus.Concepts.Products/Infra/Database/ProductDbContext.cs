@@ -1,5 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using Olympus.Concepts.Products.Core.Entity;
+using Olympus.Concepts.Products.Core.Entity.Products;
 
 namespace Olympus.Concepts.Products.Infra.Database;
 

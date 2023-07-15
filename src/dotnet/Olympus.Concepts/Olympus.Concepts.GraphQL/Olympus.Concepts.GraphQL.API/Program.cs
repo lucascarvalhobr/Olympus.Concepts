@@ -1,3 +1,4 @@
+using Olympus.Concepts.Products.Core.UseCase;
 using Olympus.Concepts.Products.Infra.Extensions;
 
 var builder = WebApplication.CreateBuilder(args);

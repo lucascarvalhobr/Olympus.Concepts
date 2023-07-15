@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Olympus.Concepts.GraphQL.API.props" />
+</Project>
